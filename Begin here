@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    // Ask user for their name
+    cout << "What is your name?" << endl;
+    string name;
+    getline(cin, name);
+    
+    // Ask user to describe an identity conflict
+    cout << "Think of a time when you felt conflicted about your identity." << endl;
+    string conflict;
+    getline(cin, conflict);
+    
+    // Output a message of validation and healing
+    cout << "Thank you for sharing, " << name << "." << endl;
+    cout << "It's okay to feel conflicted about your identity, and it's normal to question who you are." << endl;
+    cout << "Remember that you are valued and loved, and you deserve to find peace and healing." << endl;
+    cout << "Take a deep breath, and know that you are not alone." << endl;
+    
+    return 0;
+}
+
